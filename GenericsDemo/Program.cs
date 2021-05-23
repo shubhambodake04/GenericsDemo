@@ -21,11 +21,11 @@ namespace GenericsDemo
             PrintArray<char> printarray2 = new PrintArray<char>(charArray);
             printarray2.toPrint();
 
-          
             //Program.toPrint<int>(intArray);
             //Program.toPrint<double>(doubleArray);
             //Program.toPrint<char>(charArray);
             Console.ReadKey();
+
         }
 
         public static void toPrint<T>(T[] inputArray)
